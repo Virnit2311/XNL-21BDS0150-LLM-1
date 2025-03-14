@@ -33,22 +33,13 @@ Using **Large Language Models (LLMs)** and advanced orchestration, it creates an
 ```bash
 git clone https://github.com/yourusername/fintech-llm-system.git
 cd fintech-llm-system
+
 2️⃣ Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-3️⃣ Run the API server
 
-bash
-Copy
-Edit
+3️⃣ Run the API server
 uvicorn backend.main:app --reload
+
 4️⃣ Test API
 Open in browser:
-
-arduino
-Copy
-Edit
 http://127.0.0.1:8000/run
